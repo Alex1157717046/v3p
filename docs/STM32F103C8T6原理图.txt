@@ -1,0 +1,159 @@
+                                       1                                                                                 2                                                          3                                                                  4
+
+
+
+
+                        VCC3V3
+                                                                                                    VCC3V3                                VCC3V3   D1
+A                                                                                                                                                                  R1                                                                                                     A
+                                R2                                                   P1                                                                                      GND                 P2
+                                10K,0603                                                                                                                                                                           VCC3V3
+                                                                        R3               1     2           R4                                                    510R,0603                               1
+                                 RESET                      BOOT0                                                        BOOT1                     LED                                                             SWDIO
+                                                                                         3     4                                                                                                         2                               C1
+                                                                                                                                          VCC3V3   D2                                                              SWDCLK
+                                 C2                                  100K,0603           5     6          100K,0603                                                                                      3                              104,0603
+                      SW1
+                                                                                                                                                                   R5                                    4
+                                 105,0603                                            Header 3X2                                                                              PC13
+                                                                                                                                                                 510R,0603                       SWD
+                                                                                                                                                   LED
+
+                                                                                                                                                                                                         SWD
+                                                                                                                   P3
+                                                                                                                                 VBAT
+                                                                                                                         1
+                                                                                                                                 PC13                                                                                   VCC3V3    VCC3V3
+                                                                                                                         2
+                                                                                                                                 PC14
+                                 5V                                                 VCC3v3                               3
+                                                                                                                                 PC15
+                                                                                                                         4                                                                                                   C3            C4
+                                                                                                                                 PA0                                    VCC3V3
+                                                                                                                         5                                              GND
+                                                                                                                                                                        PB9                                                  104,0603      104,0603
+                                                           U3                                                                    PA1                                    PB8
+                                                                                                                         6                                              BOOT0
+                                                                                                                                                                        PB7
+                                                                                                                                 PA2                                    PB6
+                                                                                                                                                                        PB5
+B                                                      1                       5                                         7                                              PB4                                                                                               B
+                                                            VIN VOUT                                                             PA3                                    PB3
+                                                                                                                                                                        PA15
+                                                                                                                         8                                              SWCLK
+                                                                                                                                 PA4
+                                                       4                                                                 9
+                                                            BP                    C6                  C8                         PA5
+                                                                                                                                                                        48
+                                                                                                                                                                        47
+                                                                                                                                                                        46
+                                                                                                                                                                        45
+                                                                                                                                                                        44
+                                                                                                                                                                        43
+                                                                                                                        10
+                                                                                                                                                                        42
+                                                                                                                                                                        41
+                                                                                                                                                                        40
+                                                                                                                                                                        39
+                                                                                                                                                                        38
+                                                                                                                                                                        37
+                                                                              106,0603              104,0603                     PA6                                                                    U2
+          C5                C7                         3                                                                11
+                                                            EN                                                                   PA7                                                                  STM32F103C8T6
+                            223,0603                                                                                    12                                                VDD_3
+                                                                                                                                                                           VSS_3
+                                                                                                                                 PB0                                         PB9
+                                                                                                                                                                             PB8
+    105,0603                                           2                                                                13                                                BOOT0
+                                                                                                                                                                             PB7
+                                                            GND                                                                  PB1                                         PB6
+                                                                                                                                                                             PB5
+                                                                                                                        14                                                   PB4
+                                                                                                                                                                             PB3
+                                                                                                                                 PB10         VBAT         1                PA15
+                                                                                                                                                                         SWCLK                      36       VCC3V3
+                                                                                                                        15                                        VBAT                  VDD_2
+                                                                                                                                 PB11         PC13         2                                        35       GND
+           GND                                                                           GND       GND                  16                                        PC13                  VSS_2
+                                                                                                                                 NRST         PC14         3                                        34       SWIO
+                                                                                                                        17                                        PC14                   SWIO
+                                                                                                                                 VCC3V3       PC15         4                                        33       PA12
+                                                                                                                        18                                        PC15                   PA12
+                                                                                                                                 GND          OSCIN        5                                        32       PA11                          P4
+                                                                                                                        19                                        OSCIN                  PA11
+                                                                                                                                 GND          OSCOUT       6                                        31       PA10            VCC3V3
+                                                                                                                        20                                        OSCOUT                 PA10                                                1
+                                                                                                                                              RESET        7                                        30       PA9             GND
+                                                                                                                                                                  NRST                     PA9                                               2
+                                           5V                                                                      Header 20                  GND          8                                        29       PA8             5v
+                                                                                                                                                                  VSSA                     PA8                                               3
+                                                                                                                                              VCC3V3       9                                        28       PB15            PB9
+                                                                                                                                                                  VDDA                    PB15                                               4
+        U3                                                                                                                                    PA0         10                                        27       PB14            PB8
+                                                  R9                                                                                                              PA0                     PB14                                               5
+                       Vbus                                                                                                                   PA1         11             PA3                        26       PB13            PB7
+               Vbus                             20R,0603                                                                                                          PA1    PA4              PB13                                               6
+                       D-                                                   PA11                                                              PA2         12             PA5                        25       PB12            PB6
+C                D-                                                                                                                                               PA2    PA6              PB12                                               7                            C
+                       D+                                                   PA12                                                                                         PA7
+                                                                                                                                                                         PB0                                                 PB5
+                D+                                                                                                                                                       PB1                                                                 8
+                       ID                                                                                                                                                PB2/BOOT1                                           PB4
+                 ID                               R11                                                                                                                    PB10
+                                                                                                                                                                         PB11                                                                9
+                       G                                        R10                                                                                                      VSS_1                                               PB3
+                  G                             20R,0603                                                                                                                 VDD_1                                                               10
+                                                                4.7k,0603                    C9                                                                                                                              PA15
+                                                                                                                                                                                                                                             11
+        USB-mrico                                                                                                       PC14                                                                                                 PA12
+                                                                                                                                                                                                                                             12
+                                                                                                                                                                        13
+                                                                                                                                                                        14
+                                                                                                                                                                        15
+                                                                                                                                                                        16
+                                                                                                                                                                        17
+                                                                                                                                                                        18
+                                 GND                                                                                                      VCC3V3 VCC3V3                                                                      PA11
+                                                                                                                                                                        19
+                                                                                                                                                                        20
+                                                                                                                                                                        21
+                                                                                                                                                                        22
+                                                                                                                                                                        23
+                                                                                                                                                                        24
+                                                                                                           1                                                                                                                                 13
+                                                           5V                                20p,0603                                                                     PA3                                                PA10
+                                                                                                                Y3
+                                                                                                                                                                          PA4
+                                                                                                                                                                          PA5                                                                14
+                                                                                                                                                                          PA6                                                PA9
+                                                                                                                32.768K                       C10      C11
+                                                                                                                                                                          PA7
+                                                                                                                                                                          PB0                                                                15
+                                                                                             C12                                                                          PB1
+                                                                                                                                                                        BOOT1                                                PA8
+                                                                                                           4
+                                                                                                                                             104,0603 104,0603
+                                                                                                                                                                          PB10                                                               16
+                                                                                                                    PC15                                                  PB11
+                                                                                                                                                                          GND                                                PB15
+                                                                                                                                                                        VCC3V3                                                               17
+                                                                                                                                                                                                                             PB14
+                                                                                                                                                                                                                                             18
+                                                                                             20p,0603 C13                                                                                                                    PB13
+                                                                                                                                                                                                                                             19
+                                                                                                                                OSCIN                                                                                        PB12
+                                                                                                                                                                                                                                             20
+                                                                                                                1
+                                                                                                     20p,0603                                                                                                                              Header 20
+                                                                                                                    Y2         R6
+                                                                                                         C14    2  8MHz        1M
+                                                                                                                                OSCOUT
+                                                                                                                                                                                            Title
+D                                                                                                                                                                                                                                                                         D
+                                                                                                        20p,0603                                                                                      STM32F103C8T6核心板原理图
+                                                                                                                                                                                            Size              Number                                           Revision
+                                                                                                                                                                                             A4
+                                                                                                                                                                                            Date:            2014/6/2                              Sheet of
+                                                                                                                                                                                            File:            X:\项目\..\STM32F103C8T6.SchDoc         Drawn By:
+                                       1                                                                                 2                                                          3                                                                  4
+

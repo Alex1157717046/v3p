@@ -1,0 +1,104 @@
+    1                          2                                         3                                             4                           5                       6
+
+
+
+
+A                                                                                                                                                                                  A
+
+                  S1
+    S2
+           3V3     20
+     20                  C13                                                              GND
+          GND      19
+     19                  C14                           E1                      E2
+            5V     18
+     18                  C15
+            B9     17                                   13                          13
+     17                  M0_IN1                                                           MOTOR_EN     PA8
+            B8     16                                   12                          12
+     16                  M0_IN2                                                           M1_IN3
+          SDA_1    15                                   11                          11
+     15                  M0_IN3                                                           M1_IN2
+          SCL_1    14                                   10                          10
+     14                  M1_IN1                                                           M1_IN1
+            B5     13                                    9                           9
+     13                  M1_OUT1_CS                          RXD                          M0_IN3
+            B4     12                                    8                           8
+     12                  M1_OUT2_CS                          TXD                          M0_IN2
+            B3     11                                    7                           7
+     11                  M1_IN2                              SCL_1                        M0_IN1
+           A15     10                                    6                           6
+     10                  M1_IN3                              SCL_0                        M1_OUT1_CS
+           A12      9                                    5                           5
+      9                  M0_OUT1_CS                          SDA_1                        M1_OUT2_CS
+           A11      8                                    4                           4
+      8                  M0_OUT2_CS                          SDA_0
+          RXD       7                                    3                           3
+      7                   SCL_0                                                          M0_OUT1_CS
+          TXD       6                                    2                           2
+      6                  SDA_0                               3V3                         M0_OUT2_CS
+            A8      5                                    1                           1
+      5
+B          B15      4                                                                                                                                                              B
+      4                  3V3
+           B14      3
+      3
+           B13      2
+      2
+           B12      1
+      1
+
+                        GND
+                                                                                                                              USB1
+                                                                                                                              TYPEC-304-BCP16
+                                                  U1
+                                                                                                                      A1B12
+                                              D+ 1                                                          GND             GND
+                                                                   10 3V3                                              A4B9
+                                              D- 2 UD+          V3
+                                                                   9  TXD                                                A5
+                                                                                                                            VBUS
+                                                                                                                                         13
+                                                   UD-        RXD                  3V3                                      CC1    GND
+                                   GND
+                                                 3                 8  RXD                                                A6              14
+                                                   GND         TXD                                                          DP1    GND
+                                                 4                 7                                        D+           A7        GND   15
+                                                   RTS#       VCC                                                           DN1
+                                                 5                 6                                             D-      A8        GND   16
+                                                   CTS#      TNOW                        C1                                 SBU1
+                                                                                                                      B1A12
+                                                  CH340E                                 0.1u                               GND
+                                                                                                                       B4A9
+                                                                                                                            VBUS         GND
+                                                                                                                         B5
+                                                                                                                            CC2
+                                                                                                       5V                B6
+                                                                                                                            DP2
+                                                                                                                         B7
+                                                                               GND                                          DN2
+                                                                                                                         B8
+C                                                                                                                           SBU2                                                   C
+
+
+                                                  R1
+                                                                             GND
+                                         5V                        PWR
+                                                  1K
+
+
+
+
+                                                                                                                                                       更新日期       2025-10-13
+                                                                     原理图                                              Schematic1                       创建日期       2025-03-10
+                                                                     图页                                                      P1                        物料编码
+                                                                     绘制
+D
+                                                                     审阅                                                                         STM32_V3P转接板                       D
+
+
+                                                                                                                           版本            尺寸             页     1      共         1
+
+                                                                                                                           V1.0           A4                嘉立创EDA
+    1                          2                                         3                                             4                           5                       6
+
